@@ -1,0 +1,70 @@
+#container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.left_container
+{
+    width: 25%;
+    background-color: #FECA07;
+    height: 950px;
+}
+
+.right_container
+{
+    width: 60%;
+    background-color: white;
+    height: 100%;
+}
+
+.recommandation
+{
+    display: flex;
+    margin-left: 10%;
+       
+}
+
+.right_reco
+{
+    margin-left: 30%;
+}
+
+.formation
+{
+    display: flex;
+    align-content: space-around;
+}
+
+.louis
+{
+    color: #FECA07;
+}
+
+header
+{
+    margin-left: 8%;
+    margin-bottom: 16%;
+}
+
+img
+{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 20%;
+    margin-left: 29%;
+    margin-bottom: 5%;
+  
+}
+
+aside h2
+{   
+    background-color: #404040;
+    text-align: center;
+    color: #FECA07;
+}
+
+
+
+
