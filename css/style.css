@@ -17,6 +17,7 @@ body
     background-color:#7B1FA2;
     border-top: 2px solid #6A1B9A;
     border-bottom: 2px solid #6A1B9A;
+    
 }
 
 .right_container
@@ -320,8 +321,6 @@ img
         margin-top: 30px; 
     }
 
-
-
     .contact
     {
         padding-left: 2em;
@@ -357,8 +356,124 @@ img
 }
 
 /* Smartphone */
-@media screen and (max-width: 630px) 
+@media screen and (max-width: 425px) 
 {
+    .left_container
+    {
+        width: 37%;
+    }
+
+    .left_container p, 
+    {
+        font-size: 1px;
+    }
+
+    .right_container
+    {
+        width: 60%;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+
+    header h1
+    {
+        font-size: 1.5em;
+        width: 100%;
+    }
+    
+    .left_icons
+    {
+        font-size: 30px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    img
+    {
+        height: 150px;
+        width: 150px;
+    }
+    
+    .ulpadding
+    {
+       padding-inline-start: 0;
+       display: inline-flex;
+       flex-direction: column;
+    }
+    
+     li 
+    {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+       
+    li p 
+    {
+        text-align: justify;
+        margin: 5px; 
+        margin-left: 10px;   
+    }
+
+    li h3
+    {
+        margin: 9px;
+        text-align: justify;
+    }
+    
+    .name 
+    {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+    
+    .date
+    {
+        margin-top: 1em;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+
+    .img
+    {
+        margin-top: 25px;
+        height: 160px;
+    }
+
+   
+    .formation
+    {
+        margin-top: 30px; 
+    }
+
+    .contact
+    {
+        padding-left: 10px;
+        padding-bottom: ;  
+        height: 250px;
+        justify-content: center;
+    }
+
+    .contact p
+    {
+        height: 17px;
+    }
+
+    .propos
+    {
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 1000px;
+        
+
+    .icon1, .icon2, .icon3
+    {
+        height: 40px;
+        width: 40px;
+        text-align: center;  
+        overflow: hidden;
+    }
+
     
 }
 
