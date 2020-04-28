@@ -208,7 +208,7 @@ img
 {
     .left_container
     {
-        width: 28%;
+        width: 30%;
     }
 
     .right_container
@@ -339,8 +339,9 @@ img
         text-align: justify;
         padding-left: 2em;
         padding-right: 2em;
-        height: 1000px;
+        height: 100%;
         padding-top: 1px;
+        margin-bottom: 470px;
     }
 
     .icon1, .icon2, .icon3
@@ -351,129 +352,203 @@ img
         text-align: center;  
         overflow: hidden;
     }
-
 
 }
 
 /* Smartphone */
 @media screen and (max-width: 425px) 
 {
+    #container
+    {
+        flex-direction: column;
+    }
+
     .left_container
     {
-        width: 37%;
+        width: 100%;
     }
 
     .left_container p, 
     {
-        font-size: 1px;
+        font-size: 10px;
     }
 
     .right_container
     {
-        width: 60%;
+        width: 90%;
         margin-top: 50px;
-        margin-left: 15px;
+        margin-left: 25px;
     }
 
     header h1
     {
-        font-size: 1.5em;
-        width: 100%;
+        font-size: 2.5em;
+        
     }
     
     .left_icons
     {
-        font-size: 30px;
-        align-items: center;
-        justify-content: space-around;
+       margin-bottom: 55px;
     }
 
     img
     {
-        height: 150px;
-        width: 150px;
-    }
-    
-    .ulpadding
-    {
-       padding-inline-start: 0;
-       display: inline-flex;
-       flex-direction: column;
-    }
-    
-     li 
-    {
-        margin-left: 0px;
-        margin-top: 5px;
-    }
-       
-    li p 
-    {
-        text-align: justify;
-        margin: 5px; 
-        margin-left: 10px;   
-    }
-
-    li h3
-    {
-        margin: 9px;
-        text-align: justify;
-    }
-    
-    .name 
-    {
-        margin-right: 10px;
-        margin-left: 30px;
-    }
-    
-    .date
-    {
-        margin-top: 1em;
-        margin-bottom: 15px;
-        width: 90%;
+        height: 170px;
+        width: 170px;
     }
 
     .img
     {
-        margin-top: 25px;
-        height: 160px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        height: 100%;
     }
 
-   
+    li
+    {
+        flex-direction: column;
+        text-align: justify;
+        
+    }
+       
+    li p, li h3 
+    {
+        text-align: center;
+        
+      
+    }
+
+    .right_reco
+    {
+       margin-left: 30px;
+    }
+
+    .experience
+    {
+        font-size: 13.2px;
+    }
+    
+    .date
+    {
+        width: 100%;
+        text-align: center;
+    }
+
     .formation
     {
-        margin-top: 30px; 
+        margin-top: 15px; 
     }
 
     .contact
     {
-        padding-left: 10px;
-        padding-bottom: ;  
-        height: 250px;
-        justify-content: center;
-    }
-
-    .contact p
-    {
-        height: 17px;
+        padding-left: 20px;
+        padding-bottom: 25px;  
+        height: 100%;
+        
     }
 
     .propos
     {
-        text-align: justify;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 1000px;
-        
-
-    .icon1, .icon2, .icon3
-    {
-        height: 40px;
-        width: 40px;
-        text-align: center;  
-        overflow: hidden;
+       
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+       
     }
 
-    
+    .circle
+    {
+        margin-left: 50%;
+        margin-top: 15px;
+    }
+
+    .dot_circle
+    {
+        margin-left: 50%;
+    }
+         
+}
+
+@media screen and (max-width: 375px)
+{
+    .experience
+    {
+        font-size: 11.3px;
+ 
+    }
+
+    .right_icons
+    {
+        margin-right: 13px;
+    }
+
+    .right_reco
+    {
+       margin-left: 4.5px;
+    }
+
+    .recommandation
+    {
+        font-size: 14px;
+    }
+
+} 
+
+@media screen and (max-width: 320px) 
+{
+    .left_container
+    {
+        width: 100%;
+        
+    }
+
+    .left_container p, 
+    {
+        font-size: 10px;
+    }
+
+    .right_container
+    {
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 16px;
+    }
+
+    header h1
+    {
+        font-size: 2.1em;
+        
+    }
+
+    footer h2
+    {
+        font-size: 10px;
+    }
+
+    .experience
+    {
+        font-size: 9.3px;
+        
+    }
+
+    .right_icons
+    {
+        margin-right: 12px;
+    }
+
+    .reco_h2
+    {
+        font-size: 13px;
+    }
+
+    .right_reco
+    {
+       margin-left: 4.5px;
+    }
+
+    .recommandation
+    {
+        font-size: 13px;
+    }
 }
 
